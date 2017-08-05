@@ -1,12 +1,16 @@
 #include <iostream>
 using namespace std;
 #include <string>
+
 enum Course{UNIX,C,CPP,UC,VC};
+
 struct Student{
 	string name;
 	Course co;
 };
+
 enum Color{BLACK,RED,GREEN,YELLOW,BLUE,WHITE};
+
 int main()
 {
 	Course c;

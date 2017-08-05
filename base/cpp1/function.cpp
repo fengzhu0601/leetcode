@@ -2,10 +2,10 @@
 using namespace std;
 void f1(){cout<<"hello"<<endl;return;}
 void f2(void){return f1();}
-void f3(double){cout<<"world"<<endl;}//ÓÐÀàÐÍÎÞÃû×Ö£ºÑÆÔª
+void f3(double){cout<<"world"<<endl;}//æœ‰ç±»åž‹ï¼Œæ— åå­—ï¼Œå“‘å…ƒ
 int main()
 {
-	//f1(123);º¯Êýf1ÊÇÎÞ²ÎµÄ
+	//f1(123);f1å‡½æ•°æ˜¯æ— å‚æ•°çš„
 	f1();
 	f2();
 	f3(12.3);
