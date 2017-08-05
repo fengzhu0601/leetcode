@@ -3,19 +3,19 @@ using namespace std;
 #include <cstdlib>
 #include <string>
 #include <new>
-//new ÀàĞÍ==>(ÀàĞÍ*)malloc(sizeof(ÀàĞÍ))
+//new ç±»å‹==>(ç±»å‹*)malloc(sizeof(ç±»å‹))
 int main()
 {
 	string* p = static_cast<string*>(malloc(sizeof(string)));
-	int* q = new int;//²»±£Ö¤ÊÇ0
+	int* q = new int;//ä¸ä¿è¯æ˜¯0
 	int* r = new int(888);
 	cout << *q << ',' << *r << endl;
 	int n;
-	cout << "ÇëÊäÈëÒ»¸öÕûÊı:";
+	cout << "è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°:";
 	cin >> n;
-	int* a = new(nothrow) int[n];//²»±£Ö¤ÇåÁã
+	int* a = new(nothrow) int[n];//ä¸ä¿è¯æ¸…é›¶
 	if(a==NULL){
-		cout << n*sizeof(int) << "ÉêÇëÊ§°Ü" << endl;
+		cout << n*sizeof(int) << "ç”³è¯·å¤±è´¥" << endl;
 	}
 	else{
 		for(int i=0; i<n; i++){
@@ -31,6 +31,7 @@ int main()
 	delete r;r=NULL;
 	delete q;q=NULL;
 	delete[] a;a=NULL;
-	free(p);//mallocÉêÇëµÄ²»ÒªÓÃdelete pÊÍ·Å
+	free(p);//mallocç”³è¯·çš„ä¸è¦ç”¨delete pé‡Šæ”¾
 }
+
 
