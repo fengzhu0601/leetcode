@@ -1,17 +1,16 @@
 #include <iostream>//input/output stream
 #include <string>
-using std::cout;//A::B±íÊ¾A·¶Î§ÄÚµÄB£¬¡°::¡±³ÆÎªÓò²Ù×÷·û
+using std::cout;//A::Bè¡¨ç¤ºAèŒƒå›´å†…çš„Bï¼Œâ€œ::â€ç§°ä¸ºåŸŸæ“ä½œç¬¦
 using std::cin;
 using std::string;
 using std::endl;
 int main()
 {
-	cout << "ÇëÊäÈëÄúµÄĞÕÃûºÍÄêÁä:\n";
+	cout << "è¯·è¾“å…¥æ‚¨çš„å§“åå’Œå¹´é¾„:\n";
 	string name;
 	int age;
 	cin >> name >> age;
-	cout << name << "ÄúºÃ£¬Äú³öÉúÓÚ" << 2010-age << "Äê"
+	cout << name << "æ‚¨å¥½ï¼Œæ‚¨å‡ºç”Ÿäº" << 2017-age << "å¹´"
 		<< endl;//end line==>'\n'
-//	return 0;//mainº¯ÊıÄ©Î²µÄreturn 0¿ÉÓĞ¿ÉÎŞ
+	return 0;
 }
-
