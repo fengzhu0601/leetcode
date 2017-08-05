@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//½á¹¹±äÁ¿.*³ÉÔ±Ö¸Õë£¬½á¹¹Ö¸Õë->*³ÉÔ±Ö¸Õë
+//ç»“æ„å˜é‡.*æˆå‘˜æŒ‡é’ˆï¼Œç»“æ„æŒ‡é’ˆ->*æˆå‘˜æŒ‡é’ˆ
 struct date{
 	int year;
 	int month;
@@ -21,8 +21,9 @@ int main()
 	date d={1997,7,7};
 	cout << "&d=" << &d << endl;
 	cout << "&d.year=" << &d.year << ", &d.month=" << &d.month << ", &d.day=" << &d.day << endl;
-	cout << &date::year << &date::month << &date::day << endl;
-//	cout << &main << &f << endl;
+	cout <<"xxx:"<< &date::year << &date::month << &date::day << endl;
+	cout << &date::print<<endl;
+	cout << &main << &f << endl;
 	union{
 		int n;
 		int date::*mp;
