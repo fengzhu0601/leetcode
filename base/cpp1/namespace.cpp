@@ -2,24 +2,24 @@
 using namespace std;
 #include <string>
 namespace czq{
-	string name="³Â×ÚÈ¨";
+	string name="é™ˆå®—æƒ";
 	int age = 40;
 }
 namespace furong{
-	char name[20]="Ü½ÈØ½ã½ã";
+	char name[20]="èŠ™è“‰å§å§";
 	double salary = 8000;
 }
 using namespace czq;
 using namespace furong;
-char name[20]="ÍõÀÚ";
+char name[20]="ç‹ç£Š";
 int main()
 {
-	//cout << "ÎÒÏ²»¶" << name << endl;//ÆçÒå£ºÈ¨¸ç£¿Ü½ÈØ£¿
-	cout << "ÎÒÊÇ" << czq::name << ",½ñÄê" << age << endl;
-	cout << "ËıÊÇ" << furong::name << ",ÔÂĞ½" << salary << endl;
-	string name = "ÖÓÓñÁú";
-	cout << name << "ºÜË§" << endl;//ÄÚ²¿µÄname£ºÖÓÓñÁú
-	cout << ::name << "Ò²ºÜË§" << endl;//È«¾ÖµÄname£ºÍõÀÚ
+	//cout << "æˆ‘å–œæ¬¢" << name << endl;//æ­§ä¹‰ï¼šæƒå“¥ï¼ŸèŠ™è“‰ï¼Ÿ
+	cout << "æˆ‘æ˜¯" << czq::name << ",ä»Šå¹´" << age << endl;
+	cout << "å¥¹æ˜¯" << furong::name << ",æœˆè–ª" << salary << endl;
+	string name = "é’Ÿç‰é¾™";
+	cout << name << "å¾ˆå¸…" << endl;//å†…éƒ¨çš„nameï¼šé’Ÿç‰é¾™
+	cout << ::name << "ä¹Ÿå¾ˆå¸…" << endl;//å…¨å±€çš„nameï¼šç‹ç£Š
 	return 0;
 }
 
