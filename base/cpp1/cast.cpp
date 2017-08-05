@@ -1,19 +1,23 @@
 #include <iostream>
 using namespace std;
 #include <cstdlib>
-//static_castÊıÖµÀàĞÍÖ®¼ä£¬ÓĞÒ»·½ÊÇvoid*µÄÖ¸ÕëÀàĞÍÖ®¼ä
-//const_castÓÃÓÚÁÙÊ±È¥µôconst¡¢volatileÏŞÖÆ
-//reinterpret_castÈÎÒâÁ½ÖÖÖ¸ÕëÀàĞÍÖ®¼ä£¬Ö¸ÕëÓÚÊıÖµÀàĞÍÖ®¼ä
-//dynamic_castÒÔºóÔÙ½²
+
+//static_cast:æ•°å€¼ç±»å‹ä¹‹é—´ï¼Œæœ‰ä¸€æ–¹æ˜¯void*çš„æŒ‡é’ˆç±»å‹ä¹‹é—´
+//const_cast:ç”¨äºä¸´æ—¶å»æ‰constã€volatileé™åˆ¶
+//reinterpret_cast:ä»»æ„ä¸¤ç§æŒ‡é’ˆç±»å‹ä¹‹é—´ï¼ŒæŒ‡é’ˆäºæ•°å€¼ç±»å‹ä¹‹é—´
+//dynamic_cast:ä¸»è¦ç”¨äºç±»å±‚æ¬¡é—´çš„ä¸Šè¡Œè½¬æ¢å’Œä¸‹è¡Œè½¬æ¢ï¼Œè¿˜å¯ä»¥ç”¨äºç±»ä¹‹é—´çš„äº¤å‰è½¬æ¢ã€‚
 int main()
 {
 	int n = static_cast<int>(45.67);
 	int* p = static_cast<int*>(calloc(sizeof(int),10));
 	free(p);
+
 	const int k = n;
 	cout << "k=" << k << endl;
+
 	const_cast<int&>(k) = 789;
 	cout << "k=" << k << endl;
+
 	float f=123.45;
 	p = reinterpret_cast<int*>(&f);
 	cout << *p << endl;
@@ -23,7 +27,7 @@ int main()
 	cout << "n=" << n << endl;
 	int m(100);
 	cout << "m=" << m << endl;
-	int x();//º¯ÊıÉùÃ÷
-	int(y)=200;//¾¡Á¿²»ÓÃ£¬ÈİÒ×¸úÇ¿ÖÆÀàĞÍ×ª»»»ìÏı
+	int x();//å‡½æ•°å£°æ˜
+	int(y)=200;//å¼ºåˆ¶è½¬æ¢
 	cout << "y=" << y << endl;
 }
