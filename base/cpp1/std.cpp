@@ -2,12 +2,11 @@
 #include <string>
 int main()
 {
-	std::cout << "ÇëÊäÈëÄúµÄĞÕÃûºÍÄêÁä:\n";
+	std::cout << "è¯·è¾“å…¥æ‚¨çš„å§“åå’Œå¹´é¾„:\n";
 	std::string name;
 	int age;
 	std::cin >> name >> age;
-	std::cout << name << "ÄúºÃ£¬Äú³öÉúÓÚ" << 2010-age << "Äê"
+	std::cout << name << "æ‚¨å¥½ï¼Œæ‚¨å‡ºç”Ÿäº" << 2010-age << "å¹´"
 		<< std::endl;//end line==>'\n'
-//	return 0;//mainº¯ÊıÄ©Î²µÄreturn 0¿ÉÓĞ¿ÉÎŞ
+	return 0;//mainå‡½æ•°æœ«å°¾çš„return 0å¯æœ‰å¯æ— 
 }
-

@@ -4,13 +4,13 @@ using namespace std;
 int main()
 {
 	double d = 123.45;
-	double& e = d;//eÊÇdµÄ±ğÃû£¬Á½ÕßÊÇÍ¬Ò»¸ö±äÁ¿
-	//double*const E=&d;ºóÃæµÄe¶¼Ïàµ±ÓÚ*E
-	//double& f = 123.45;//ÒıÓÃÖ»ÄÜÓÃ±äÁ¿À´³õÊ¼»¯
+	double& e = d;//eæ˜¯dçš„åˆ«åï¼Œä¸¤è€…æ˜¯åŒä¸€ä¸ªå˜é‡
+	//double*const E=&d;åé¢çš„eéƒ½ç›¸å½“äº*E
+	//double& f = 123.45;//å¼•ç”¨åªèƒ½ç”¨å˜é‡æ¥åˆå§‹åŒ–
 	const double& c = 234.56;
 	const double& s = d+5;
 	cout << "&d=" << &d << ", &e=" << &e << endl;
-	//int& n = d;//ÀàĞÍ²»Ò»ÖÂ
+	//int& n = d;//ç±»å‹ä¸ä¸€è‡´
 	cout << "d=" << d << ",e=" << e << "c=" << c << "s=" << s << endl;
 	double& e2 = e;
 	cout << "&e2=" << &e2 << ", e2=" << e2 << endl;
@@ -18,3 +18,9 @@ int main()
 	cout << "d=" << d << ", e=" << e << endl;
 }
 
+/*
+&d=0x7ffeab152500, &e=0x7ffeab152500
+d=123.45,e=123.45c=234.56s=128.45
+&e2=0x7ffeab152500, e2=123.45
+d=78.9, e=78.9
+*/
