@@ -57,12 +57,14 @@ public:
 	//只读访问接口
 	Rank size() const   //规模
 	{
-		return _size
-	};
+		return _size;
+	}
+
 	bool empty() const  //判空
 	{
-		return  _size<= 0
+		return  _size<= 0;
 	}
+
 	int disordered() const; //判断向量是否已排序
 	Rank find(T const& e) const     //无序向量整体查找
 	{
