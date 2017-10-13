@@ -245,5 +245,18 @@ int Vector<T>::deduplicate()
 }
 
 
+//遍历向量，对各节点依次实施visit操作
+template <typename T>
+void Vector<T>::traverse(void (*visit)(T&))
+{
+    for(int i=0; i < _size; i++)
+        visit(_elem[i]);
+}
 
-
+template <typename T>
+template <typename VST>
+void Vector<T>::traverse(VST& visit)
+{
+    for(int i=0; i < _size; i++)
+        visit(_elem[i]);
+}
