@@ -1,0 +1,100 @@
+1520240208653	geckodriver	INFO	geckodriver 0.19.1
+1520240208657	geckodriver	INFO	Listening on 127.0.0.1:56964
+1520240211832	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.m7lPcNiJ0t3P"
+1520240213354	Marionette	INFO	Enabled via --marionette
+1520240216539	Marionette	INFO	Listening on port 38795
+1520240233942	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520240651934	geckodriver	INFO	geckodriver 0.19.1
+1520240651941	geckodriver	INFO	Listening on 127.0.0.1:52105
+1520240655123	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uftX5ZDq0R0o"
+1520240656132	Marionette	INFO	Enabled via --marionette
+1520240658364	Marionette	INFO	Listening on port 44289
+1520240677231	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520300142548	geckodriver	INFO	geckodriver 0.19.1
+1520300142653	geckodriver	INFO	Listening on 127.0.0.1:56692
+1520300145891	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jip3uptNERGr"
+1520300155002	Marionette	INFO	Enabled via --marionette
+1520300160400	Marionette	INFO	Listening on port 35774
+1520300168012	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520320806997	geckodriver	INFO	geckodriver 0.19.1
+1520320807035	geckodriver	INFO	Listening on 127.0.0.1:33860
+1520320810298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3XjH2HpExQfH"
+1520320821265	Marionette	INFO	Enabled via --marionette
+1520320828456	Marionette	INFO	Listening on port 43645
+1520320832427	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:58126): LIBDBUSMENU-GTK-CRITICAL **: dbusmenu_menuitem_property_set_shortcut: assertion 'gtk_accelerator_valid(key, modifier)' failed
+1520320920982	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1520320947356	geckodriver	INFO	geckodriver 0.19.1
+1520320947360	geckodriver	INFO	Listening on 127.0.0.1:43456
+1520320947512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.avo0IB2dHS1z"
+1520320948526	Marionette	INFO	Enabled via --marionette
+1520320951260	Marionette	INFO	Listening on port 40248
+1520320969634	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520321372453	geckodriver	INFO	geckodriver 0.19.1
+1520321372457	geckodriver	INFO	Listening on 127.0.0.1:55815
+1520321375613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xchTK54ScYR4"
+1520321376741	Marionette	INFO	Enabled via --marionette
+1520321379508	Marionette	INFO	Listening on port 38979
+1520321397773	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520321865250	geckodriver	INFO	geckodriver 0.19.1
+1520321865253	geckodriver	INFO	Listening on 127.0.0.1:52802
+1520321868400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oW3wPfr6UMeg"
+1520321869350	Marionette	INFO	Enabled via --marionette
+1520321871671	Marionette	INFO	Listening on port 40214
+
+(firefox:59601): LIBDBUSMENU-GTK-CRITICAL **: dbusmenu_menuitem_property_set_shortcut: assertion 'gtk_accelerator_valid(key, modifier)' failed
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520321891224	geckodriver	INFO	geckodriver 0.19.1
+1520321891227	geckodriver	INFO	Listening on 127.0.0.1:52291
+1520321894492	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WR11fJdIJiaf"
+1520321895656	Marionette	INFO	Enabled via --marionette
+1520321898499	Marionette	INFO	Listening on port 45823
+1520321916610	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:59895): LIBDBUSMENU-GTK-CRITICAL **: dbusmenu_menuitem_property_set_shortcut: assertion 'gtk_accelerator_valid(key, modifier)' failed
+1520322368413	geckodriver	INFO	geckodriver 0.19.1
+1520322368418	geckodriver	INFO	Listening on 127.0.0.1:55090
+1520322368734	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ugqu28WZFcNZ"
+1520322370521	Marionette	INFO	Enabled via --marionette
+1520322373076	Marionette	INFO	Listening on port 37784
+1520322390849	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:60705): LIBDBUSMENU-GTK-CRITICAL **: dbusmenu_menuitem_property_set_shortcut: assertion 'gtk_accelerator_valid(key, modifier)' failed
+1520324049675	geckodriver	INFO	geckodriver 0.19.1
+1520324049684	geckodriver	INFO	Listening on 127.0.0.1:47662
+1520324049899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RJXK0NA6c5MU"
+1520324051635	Marionette	INFO	Enabled via --marionette
+1520324055105	Marionette	INFO	Listening on port 36891
+1520324072035	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:62011): LIBDBUSMENU-GTK-CRITICAL **: dbusmenu_menuitem_property_set_shortcut: assertion 'gtk_accelerator_valid(key, modifier)' failed
+JavaScript error: chrome://browser/content/ext-menus.js, line 606: TypeError: tab is null
+JavaScript error: chrome://browser/content/browser-safebrowsing.js, line 16: TypeError: gBrowser.selectedBrowser is undefined
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1520324629007	geckodriver	INFO	geckodriver 0.19.1
+1520324629010	geckodriver	INFO	Listening on 127.0.0.1:40930
+1520324632140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VYTXp9YbTx3I"
+1520324633040	Marionette	INFO	Enabled via --marionette
+1520324635129	Marionette	INFO	Listening on port 40740
+1520324654260	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520390429191	geckodriver	INFO	geckodriver 0.19.1
+1520390429226	geckodriver	INFO	Listening on 127.0.0.1:55617
+1520390432468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.B3doVfb6kRHW"
+1520390442517	Marionette	INFO	Enabled via --marionette
+1520390448850	Marionette	INFO	Listening on port 44120
+1520390454578	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520399120961	geckodriver	INFO	geckodriver 0.19.1
+1520399121003	geckodriver	INFO	Listening on 127.0.0.1:33302
+1520399124441	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MVUeCzs05dP3"
+1520399139045	Marionette	INFO	Enabled via --marionette
+1520399158624	Marionette	INFO	Listening on port 42866
+1520399170213	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520400449373	geckodriver	INFO	geckodriver 0.19.1
+1520400449384	geckodriver	INFO	Listening on 127.0.0.1:55706
+1520400452615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dSUrW3RuRPnJ"
+1520400458281	Marionette	INFO	Enabled via --marionette
+1520400463725	Marionette	INFO	Listening on port 45521
+1520400474727	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:101507): LIBDBUSMENU-GTK-CRITICAL **: dbusmenu_menuitem_property_set_shortcut: assertion 'gtk_accelerator_valid(key, modifier)' failed

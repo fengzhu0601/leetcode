@@ -42,19 +42,22 @@ import http.cookiejar
 url = "https://segmentfault.com/q/1010000008880517/a-1020000008885648"
 postdata = urllib.parse.urlencode(
     {
-        
+        "username":"125384977@qq.com",
+        "password":"19880601fz"
     }
-)
-headers = ("User-Agent","Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Mobile Safari/537.36")
-opener = urllib.request.build_opener(handler)
-# opener.addheaders = [headers]
-data = opener.open(url).read()
-
+).encode('utf-8')
+req = urllib.request.Request(url,postdata)
+req.add_header("User-Agent","Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Mobile Safari/537.36")
+data = urllib.request.urlopen(req).read()
 
 with open("./4.html", "wb") as f:
     f.write(data)
 
-for item in cookie:
-    print('Name = %s' % item.name)
-    print('Value = %s' % item.value)
+
+url2 = "https://segmentfault.com/"
+req2 = urllib.request.Request(url2,postdata)
+req2.add_header("User-Agent","Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Mobile Safari/537.36")
+data2 = urllib.request.urlopen(req2).read()
+with open("./5.html", "wb") as f:
+    f.write(data2)
 
