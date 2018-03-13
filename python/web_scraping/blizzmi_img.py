@@ -17,17 +17,15 @@ browser.get(url)
 images = re.findall(r'ng-src="(.*?\.(jpg|png))"', browser.page_source)
 x = 1
 for image_tuple in images:
-	imageurl = image_tuple[0]
-	# imagename = "~/fengzhu/picture/" + str(x) + ".png"
-	try:
-		urllib.request.urlretrieve(imageurl, '/home/fengzhu/fengzhu/picture/%d.png' % x)
-	except urllib.error.URLError as e:
-		if hasattr(e, "code"):
-			x+=1
-		if hasattr(e, "reason"):
-			x+=1
-	x+=1
-	# print(image_tuple[0])
+    imageurl = image_tuple[0]
+    # imagename = "~/fengzhu/picture/" + str(x) + ".png"
+    try:
+        urllib.request.urlretrieve(imageurl, '/home/fengzhu/fengzhu/picture/%d.png' % x)
+    except urllib.error.URLError as e:
+        if hasattr(e, "code"):
+            x += 1
+        if hasattr(e, "reason"):
+            x += 1
+    x += 1
+# print(image_tuple[0])
 browser.close()
-
-
