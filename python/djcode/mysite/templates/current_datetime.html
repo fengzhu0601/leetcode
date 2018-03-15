@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "base.html" %}
+    <meta charset="UTF-8">
+    <title>{% block title %}The current time{% endblock %}</title>
+</head>
+<body>
+    {% block content %}
+    <p>hello It is now {{ current_date }}.</p>
+    {% endblock %}
+</body>
+</html>
