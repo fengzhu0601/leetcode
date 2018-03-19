@@ -45,8 +45,8 @@ def user_login(request):
         # 没有成功说明里面的值是None，并再次跳转回主页面
         else:
 
-            return render_to_response("login.html", {"msg": "用户名或密码错误!"}, context_instance=RequestContext(request))
-            # return render(request, "login.html", {"msg": "用户名或密码错误!"})
+            # return render_to_response("login.html", {"msg": "用户名或密码错误!"}, context_instance=RequestContext(request))
+            return render(request, "login.html", {"msg": "用户名或密码错误!"})
     # 获取登录页面为get
     elif request.method == "GET":
         # render就是渲染html返回用户
