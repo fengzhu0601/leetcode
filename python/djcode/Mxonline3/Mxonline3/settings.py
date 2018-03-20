@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'operation',
     'xadmin',
     'crispy_forms',
+    'captcha',
 ]
 
 # 此处重载是为了使我们的UserProfile生效
@@ -152,3 +153,13 @@ AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
 
 )
+
+# 发送邮件
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.163.com'   # 主机
+EMAIL_PORT = 25  # 端口
+EMAIL_HOST_USER = '13971310804@163.com'  # 发件人邮箱
+EMAIL_HOST_PASSWORD = '19880601fz'  # 密码
+EMAIL_FROM = '13971310804@163.com'  # 发件人
