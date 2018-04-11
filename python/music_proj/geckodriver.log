@@ -1,0 +1,84 @@
+1523178482274	geckodriver	INFO	geckodriver 0.19.1
+1523178482287	geckodriver	INFO	Listening on 127.0.0.1:44594
+1523178485477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Qtfm8VQF8GiI"
+1523178500462	Marionette	INFO	Enabled via --marionette
+1523178514928	Marionette	INFO	Listening on port 36685
+1523178530174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1523251394336	geckodriver	INFO	geckodriver 0.19.1
+1523251394369	geckodriver	INFO	Listening on 127.0.0.1:48712
+1523251397678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Gtd1sKvayvND"
+1523251406930	Marionette	INFO	Enabled via --marionette
+1523251416100	Marionette	INFO	Listening on port 33553
+1523251419820	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 43619, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523251559115	geckodriver	INFO	geckodriver 0.19.1
+1523251559124	geckodriver	INFO	Listening on 127.0.0.1:53254
+1523251559381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.2b0En1DsO8e9"
+1523251561044	Marionette	INFO	Enabled via --marionette
+1523251562772	Marionette	INFO	Listening on port 36825
+1523251581502	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 43986, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523251893966	geckodriver	INFO	geckodriver 0.19.1
+1523251893973	geckodriver	INFO	Listening on 127.0.0.1:56654
+1523251897160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fdpwh6mvLoTk"
+1523251898090	Marionette	INFO	Enabled via --marionette
+1523251899506	Marionette	INFO	Listening on port 39689
+1523251919276	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=1425_21081_26106&csor=4&pwd=pyt&cb=jQuery110209339257362659104_1523251920146&_=1523251920151, line 1: TypeError: jQuery110209339257362659104_1523251920146 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1425_21081_26106&csor=5&pwd=pyth&cb=jQuery110209339257362659104_1523251920146&_=1523251920152, line 1: TypeError: jQuery110209339257362659104_1523251920146 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1425_21081_26106&csor=6&pwd=pytho&cb=jQuery110209339257362659104_1523251920146&_=1523251920153, line 1: TypeError: jQuery110209339257362659104_1523251920146 is not a function
+1523252066396	geckodriver	INFO	geckodriver 0.19.1
+1523252066398	geckodriver	INFO	Listening on 127.0.0.1:40201
+1523252069536	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IeSJcBmhrR5g"
+1523252070078	Marionette	INFO	Enabled via --marionette
+1523252071660	Marionette	INFO	Listening on port 40740
+1523252091662	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 44989, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523252278486	geckodriver	INFO	geckodriver 0.19.1
+1523252278488	geckodriver	INFO	Listening on 127.0.0.1:34111
+1523252281613	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.QCkUqNXG1Yn6"
+1523252282112	Marionette	INFO	Enabled via --marionette
+1523252283560	Marionette	INFO	Listening on port 34295
+1523252303744	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 45433, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1523253428450	geckodriver	INFO	geckodriver 0.19.1
+1523253428453	geckodriver	INFO	Listening on 127.0.0.1:47689
+1523253431597	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OSbXGNBLltGc"
+1523253432096	Marionette	INFO	Enabled via --marionette
+1523253433752	Marionette	INFO	Listening on port 45827
+1523253453714	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46164, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523253480167	geckodriver	INFO	geckodriver 0.19.1
+1523253480170	geckodriver	INFO	Listening on 127.0.0.1:60398
+1523253483260	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MxJyWH6pncO3"
+1523253484394	Marionette	INFO	Enabled via --marionette
+1523253485850	Marionette	INFO	Listening on port 33929
+1523253505384	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 46561, Chrome_ChildThread] WARNING: pipe error (41): 连接被对方重设: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 46614, Chrome_ChildThread] WARNING: pipe error: 断开的管道: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 46561, Chrome_ChildThread] WARNING: pipe error (3): 连接被对方重设: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1523255151403	geckodriver	INFO	geckodriver 0.19.1
+1523255151405	geckodriver	INFO	Listening on 127.0.0.1:55612
+1523255154550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FhPpeRjcITCg"
+1523255155546	Marionette	INFO	Enabled via --marionette
+1523255157032	Marionette	INFO	Listening on port 35438
+1523255176662	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1523255271566	geckodriver	INFO	geckodriver 0.19.1
+1523255271573	geckodriver	INFO	Listening on 127.0.0.1:33846
+1523255274707	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GA4Gr7T9OreS"
+1523255275602	Marionette	INFO	Enabled via --marionette
+1523255277114	Marionette	INFO	Listening on port 33682
+1523255296816	Marionette	WARN	TLS certificate errors will be ignored for this session
